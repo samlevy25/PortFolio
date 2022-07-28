@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_app/components/home_page_actions.dart';
+import 'package:portfolio/components/home_page_actions.dart';
 
 class MyDrawer extends StatelessWidget {
   final ScrollController sc;

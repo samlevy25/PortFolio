@@ -1,4 +1,13 @@
 import 'package:flutter/material.dart';
+//import 'package:portfolio/components/contact_form.dart';
+//import 'package:portfolio/components/footer.dart';
+//import 'package:portfolio/components/header1.dart';
+import 'package:portfolio/components/home_page_actions.dart';
+//import 'package:portfolio/components/more_about_me.dart';
+import 'package:portfolio/components/my_drawer.dart';
+//import 'package:portfolio/components/recent_projects.dart';
+//import 'package:portfolio/components/social_icons_bar.dart';
+//import 'package:portfolio/components/top_skills.dart';
 import 'package:portfolio/utils.dart';
 
 class HomePage extends StatelessWidget {
@@ -16,7 +25,7 @@ class HomePage extends StatelessWidget {
           'SAMUEL (ELIE) LEVY',
           style: TextStyle(
             fontSize: 22,
-            color: Color(0xFF4756DF),
+            color: Color.fromARGB(255, 17, 18, 28),
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -58,7 +67,7 @@ class HomePage extends StatelessWidget {
           );
         },
         child: Image.network(
-          'https://eager-williams-af0d00.netlify.app/assets/icons/icons8-upward-arrow.gif',
+          'portfolio/assets/images/images.png',
         ),
       ),
       body: SafeArea(
@@ -67,7 +76,19 @@ class HomePage extends StatelessWidget {
             SingleChildScrollView(
               //Add Scroll Controller
               child: Column(
-                children: const [],
+                children: const [
+                  Header1(),
+                  MoreAboutMe(),
+                  SizedBox(height: 50),
+                  TopSkills(),
+                  SizedBox(height: 50),
+                  RecentProjects(),
+                  SizedBox(height: 50),
+                  ContactForm(),
+                  SizedBox(height: 50),
+                  Footer(),
+                  SizedBox(height: 20),
+                ],
               ),
             ),
           ],
