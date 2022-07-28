@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-//import 'package:portfolio/components/contact_form.dart';
-//import 'package:portfolio/components/footer.dart';
+import 'package:portfolio/components/contact_form.dart';
+import 'package:portfolio/components/footer.dart';
 import 'package:portfolio/components/header1.dart';
 import 'package:portfolio/components/home_page_actions.dart';
-//import 'package:portfolio/components/more_about_me.dart';
+import 'package:portfolio/components/more_about_me.dart';
 import 'package:portfolio/components/my_drawer.dart';
-//import 'package:portfolio/components/recent_projects.dart';
-//import 'package:portfolio/components/social_icons_bar.dart';
-//import 'package:portfolio/components/top_skills.dart';
+import 'package:portfolio/components/recent_projects.dart';
+import 'package:portfolio/components/social_icons_bar.dart';
+import 'package:portfolio/components/top_skills.dart';
 import 'package:portfolio/utils.dart';
 
 class HomePage extends StatelessWidget {
@@ -78,15 +78,15 @@ class HomePage extends StatelessWidget {
               child: Column(
                 children: const [
                   Header1(),
-                  //MoreAboutMe(),
+                  MoreAboutMe(),
                   SizedBox(height: 50),
-                  //TopSkills(),
+                  TopSkills(),
                   SizedBox(height: 50),
-                  //RecentProjects(),
+                  RecentProjects(),
                   SizedBox(height: 50),
-                  //ContactForm(),
-                  //SizedBox(height: 50),
-                  //Footer(),
+                  ContactForm(),
+                  SizedBox(height: 50),
+                  Footer(),
                   SizedBox(height: 20),
                 ],
               ),
