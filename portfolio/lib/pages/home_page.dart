@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:portfolio/components/contact_form.dart';
 //import 'package:portfolio/components/footer.dart';
-//import 'package:portfolio/components/header1.dart';
+import 'package:portfolio/components/header1.dart';
 import 'package:portfolio/components/home_page_actions.dart';
 //import 'package:portfolio/components/more_about_me.dart';
 import 'package:portfolio/components/my_drawer.dart';
@@ -67,7 +67,7 @@ class HomePage extends StatelessWidget {
           );
         },
         child: Image.network(
-          'portfolio/assets/images/images.png',
+          'assets/images/icons8-upward-arrow.gif',
         ),
       ),
       body: SafeArea(
@@ -78,15 +78,15 @@ class HomePage extends StatelessWidget {
               child: Column(
                 children: const [
                   Header1(),
-                  MoreAboutMe(),
+                  //MoreAboutMe(),
                   SizedBox(height: 50),
-                  TopSkills(),
+                  //TopSkills(),
                   SizedBox(height: 50),
-                  RecentProjects(),
+                  //RecentProjects(),
                   SizedBox(height: 50),
-                  ContactForm(),
-                  SizedBox(height: 50),
-                  Footer(),
+                  //ContactForm(),
+                  //SizedBox(height: 50),
+                  //Footer(),
                   SizedBox(height: 20),
                 ],
               ),
