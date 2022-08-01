@@ -17,7 +17,7 @@ class MyDrawer extends StatelessWidget {
           },
           icon: const Icon(
             Icons.close,
-            color: Color(0xFF4756DF),
+            color: Color.fromARGB(255, 172, 64, 143),
           ),
         ),
       ),

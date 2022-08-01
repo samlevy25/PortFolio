@@ -25,11 +25,11 @@ class HomePage extends StatelessWidget {
           'SAMUEL (ELIE) LEVY',
           style: TextStyle(
             fontSize: 22,
-            color: Color.fromARGB(255, 17, 18, 28),
+            color: Color.fromARGB(255, 255, 255, 255),
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: Color.fromRGBO(29, 29, 66, 1.0),
         toolbarHeight: 66,
         elevation: 2,
         actions: [
