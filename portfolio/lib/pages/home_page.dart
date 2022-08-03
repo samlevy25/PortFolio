@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
         child: Stack(
           children: [
             SingleChildScrollView(
-              //Add Scroll Controller
+              controller: myScrollController,
               child: Column(
                 children: const [
                   Header1(),
@@ -91,6 +91,7 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
+            const SocialIconsBar(),
           ],
         ),
       ),

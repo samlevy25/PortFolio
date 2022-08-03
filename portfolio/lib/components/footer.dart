@@ -10,8 +10,8 @@ class Footer extends StatelessWidget {
         const Text('© 2021'),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Text('Developed and designed by Samuel Levy'),
+          children: const [
+            Text('Developed and designed by Samuel Levy'),
           ],
         )
       ],
